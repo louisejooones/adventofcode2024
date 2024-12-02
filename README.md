@@ -2,6 +2,7 @@
 A place for all my working on the Advent of Code 2024
 
 # Getting Started
+1. Add SSH key if on a new device
 1. Clone this repository using SSH: `git clone <git@github.com:louisejooones/adventofcode2024.git>`
 1. Create a new branch off of main: `git checkout -b <your_branch_name>`
 1. Navigate into the project folder in a Command Prompt terminal: `cd "adventofcode2024"`
