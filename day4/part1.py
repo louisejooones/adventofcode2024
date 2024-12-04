@@ -6,7 +6,6 @@ input = get_data(day=4, year=2024)
 lines = [line for line in input.strip().split('\n')]
 
 line_length = len(lines[0])
-num_chars = line_length * len(lines)
 
 n = -line_length
 ne = -line_length + 1
