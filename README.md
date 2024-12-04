@@ -10,5 +10,4 @@ A place for all my working on the Advent of Code 2024
 1. Create a virtual environment: `conda create -n aoc24`
 1. Activate environment: `conda activate aoc24`
 1. Install packages: `conda install pip` -> `pip install -r requirements.txt`
-1. Add a .env file with secrets (e.g. SESSION_COOKIE)
-1. Ensure .env file is in .gitignore
+1. Add your session cookie: `set AOC_SESSION=<YOURCOOKIE>`
