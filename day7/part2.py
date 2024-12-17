@@ -20,12 +20,15 @@ def add(x,y):
 def multiply(x,y):
     return x*y
 
+def concat(x,y):
+    return int(str(x)+str(y))
+
 instructions['number_count'] = instructions['numbers'].apply(len)
 
 instructions['operation_count'] = instructions['number_count']-1
 
 def list_options(operation_count):
-    operations = [add, multiply]
+    operations = [add, multiply, concat]
     return [list(ops) for ops in product(operations, repeat=operation_count)]
 
 instructions['options'] = instructions['operation_count'].apply(list_options)
